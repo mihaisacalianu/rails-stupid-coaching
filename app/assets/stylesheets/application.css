@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+ .my-container{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 15px;
+ }
+
+ .question-input{
+  width: 90%;
+  height: 50px;
+ }
+
+ .btn{
+  height: 50px;
+  margin-left: 0;
+ }
+
+.my-card{
+  border-left: 4px solid rgb(232, 224, 224);
+  padding: 5px;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.my-card  p {
+  margin-bottom: 0;
+}
+
+.background-yellow{
+  background-color: #FFFEE0;
+}
+
+.link{
+
+  margin-top: 15px;
+}

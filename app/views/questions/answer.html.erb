@@ -1,0 +1,15 @@
+
+<div class="my-container">
+  <h1>Stupid Coach answer:</h1>
+  <div class="my-card">
+    <p><%= params[:question] %></p>
+    <p>You</p>
+  </div>
+  <div class="my-card background-yellow">
+    <p><%= @answer %></p>
+    <p>Your coach</p>
+  </div>
+ <div class="link">
+    <%= link_to 'ask another question', ask_path %>
+ </div>
+</div>
